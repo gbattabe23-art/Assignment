@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+.nav{
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+    color:white;
+    padding-top:20px;
+    text-decoration: none;
+}
+ a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+  opacity:0.5;
+}
+header{
+    width:100%;
+    height:760px;
+    background-image: url(https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?_gl=1*116ld48*_ga*ODEwMjc3NDk2LjE3NTE4NzA1MzE.*_ga_8JE65Q40S6*czE3NTYwOTE4NzQkbzE5JGcxJHQxNzU2MDkxOTcwJGo1OSRsMCRoMA..);
+    background-position: 50% 50%;
+    background-size:cover;
+   position:relative;
+}
+.h{
+    position:absolute;
+    color:burlywood;
+    padding-top:100px;
+    padding-left:200px;
+    font-size:25px;
+}
