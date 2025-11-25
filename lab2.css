@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+nav{
+    background-color: darkslategray;
+    color:white;
+    padding:25px;
+    opacity:1;
+    margin-top:10px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    padding:20px;
+}
+a:hover{
+    opacity:0.8;
+}
+header{
+    float:left;
+    text-align:center;
+    padding:20px;
+     background-image:image() ; 
+}
+header h1{
+    padding:20px;
+    color:olivedrab
+}
+header img{
+    width:60%;
+    height:500px;
+    object-fit:cover;
+margin:20px;
+background-image: url();
+}
+
